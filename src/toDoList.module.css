@@ -1,0 +1,64 @@
+.container {
+    width: 600px;
+    margin: 5rem auto;
+    font-size: calc(10px + 1vmin);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+h2 {
+    margin: 0.5rem 0;
+    text-align: center;
+}
+
+.content {
+    padding: 1rem;
+}
+
+.searchBar {
+    width: 70%;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.button {
+    width: 4rem;
+    height: 2rem;
+    font-size: 1rem;
+    margin: 0.5rem;
+    border-color: lightgray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.listItems {
+    list-style: none;
+}
+
+.listItem {
+    text-decoration: none;
+}
+
+.listItem:hover {
+    text-decoration: underline;
+}
+
+.label {
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.checkbox {
+    width: 1.4rem;
+    height: 1.4rem;
+    margin: 0.5rem;
+}
+
+.checked {
+    text-decoration: line-through;
+}
